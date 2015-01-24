@@ -1,0 +1,170 @@
+
+body {
+	 width:80%;
+     margin-left:auto;
+     margin-right:auto;
+	 font-family: 'Lato', sans-serif;
+	 background: #f8f8f8;
+}
+
+
+
+
+h1 {
+	font-style: 'Lato', sans-serif;
+	font-size: 60px; 
+	font-weight: 400;
+	text-align: center; 
+	margin-top: 150px; 
+	text-transform: uppercase;
+	color: #006442;
+
+}
+h1 span.subtitle {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	color: #03A678;
+}
+a {
+	text-decoration: none;
+}
+
+li {
+	display: inline;
+	list-style: none; 
+}
+.nav-main {
+	widows: 960px; 
+	background-color: #22313F;
+	height: 70px;
+	color: white;
+	border-radius: 10px; 
+}
+
+.nav-main .logo {
+	float: left;
+	line-height: 40px; 
+	padding:15px 30px;
+	font-size:1.4em;
+}
+
+.nav-main > ul {
+	margin:0;
+	padding:0;
+	float: left;
+	list-style: none;
+}
+
+.nav-main > ul > li {
+	float: left; 
+}
+
+
+.nav-item {
+	display: inline-block;
+	padding: 15px 20px; 
+	height: 40px; 
+	line-height: 40px; 
+}
+
+.nav-item:hover {
+	background-color: #C5EFF7; 
+	cursor: pointer;
+}
+
+.nav-option {
+	display: none; 
+}
+
+.nav-content {
+	position: absolute;
+	text-outline: 70px;
+	overflow: hidden; 
+	background-color: green; 
+	color: white;
+	max-height: 0; 
+	z-index: 2;
+}
+
+.nav-content a {
+	color: white; 
+	text-decoration: none; 
+
+}
+
+.nav-content a:hover {
+	text-decoration: underline;
+}
+
+.nav-sub {
+	padding: 20px;
+}
+
+.nav-sub ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+.nav-sub ul a {
+	display: inline-block;
+	padding:5px 0;
+}
+
+.nav-option:checked ~ .nav-content {
+	max-height: 400px; 
+	-webkit-transition:max-height 400ms ease-in-out;
+	-moz
+
+}
+
+.nav-option:checked + label {
+	background-color: #C5EFF7;
+}
+
+.nav-close {
+	display: none;
+	position: absolute;
+	top:70px;
+	left: 0;
+	height: 100%;
+	width:100%;
+}
+
+.nav-close-option {
+	display: none;
+}
+
+.nav-option:checked~.nav-close {
+	display: block; 
+}
+.content {
+	width:960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 160px;
+
+}
+
+img {
+	
+	display: inline; 
+	margin-left: auto; 
+	margin-right: auto; 
+	padding:5px;
+	border-radius: 15px;
+	border:1px solid #ccc;
+	-webkit-transition: all .9s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	margin: 0 20px 33px 0;
+}
+
+img:hover {
+	opacity: .5; 
+	-webkit-transition: all .9s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+}
